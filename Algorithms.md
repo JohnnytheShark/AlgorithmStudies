@@ -24,3 +24,23 @@ log10 = 100
 10 x 10 = 100 so log10 100 = 2
 Logs are the flip of exponentials
 Big O means log2. 
+
+## Timing 
+If you have a list or array of 4 billion numbers and it takes up to 4 billion guesses this is considered linear time (simple search).
+
+Binary search runs in logarithmic time.
+
+Notation:
+It works as such Big O (Operations) infront of the number of operations 
+
+O(n) linear
+O(log n) log time
+
+Big O run times: 
+O(log n), also known as log time. Ex: Binary Search
+O(n) linear time. Simple Search.
+O(n*log n) Fast sorting algorithm. Ex: Quicksort
+O(n^2) A slow sorting algorithm: Ex: Selection Sort
+O(n!) A really slow algorithm, like the traveling salesperson. n! (n factorial)
+
+Algorithm speed isn't measured in seconds, but in growth of the number of operations
