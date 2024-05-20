@@ -15,4 +15,10 @@ def selectionSort(arr):
     return newArr
 
 print(selectionSort([5,3,2,4,5,10]))
+
+#Quick sort
+def quicksort(array):
+    if len(array) < 2:
+        return array
+
     
